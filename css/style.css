@@ -37,6 +37,9 @@ ul {
 /* Header Area Css Starts */
 #header-section {
     background: #562EFF;
+    position: sticky;
+    top: 0;
+    left: 0;
 
 }
 
@@ -271,3 +274,12 @@ h1 {
 
 
 /* Latest course css Ends */
+
+footer{
+    background-color: #000;
+}
+footer p{
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
