@@ -44,24 +44,31 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 15px;
 }
 
 .logo-area {
     max-width: 80px;
     width: 100%;
-    padding: 10px 0;
 }
 
 .logo-area img {
     width: 100%;
 }
 
-.nav-menu-area {}
+.nav-menu-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .nav-menu-area ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+.profile{
+    margin-left: 35px;
 }
 
 .nav-menu-area ul li {
@@ -71,16 +78,17 @@ ul {
 
 .nav-menu-area ul li:last-child {
     margin-right: 0;
-    
+
 }
 
 .nav-menu-area ul li a {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.2em;
+    line-height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
+    font-weight: 400;
 }
 
 
