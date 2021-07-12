@@ -1,0 +1,99 @@
+/* Header area Css starts */
+
+
+@media (max-width:500px) {
+    .inner-header {
+        flex-direction: column;
+    }
+
+    .nav-menu-area ul {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .nav-menu-area {
+        flex-direction: column;
+    }
+
+    .nav-menu-area ul li {
+        margin: 5px 0;
+    }
+
+    .profile {
+        margin: 0;
+    }
+
+    .nav-menu-area ul li a {
+        font-size: 1em;
+        line-height: 20px;
+
+    }
+
+}
+
+
+
+
+/* Topper Section css Starts */
+
+@media (max-width:700px) {
+    .player-wrapper {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:885px) {
+    .blog-wrapper {
+
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:1004px) {
+    .course-wrapper {
+        justify-content: center;
+    }
+}
+
+@media (max-width:500px) {
+
+    .player img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .player p {
+        font-size: 15px;
+        line-height: 18px;
+
+    }
+
+    .blog-desc h2 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .blog img {
+        width: 167px;
+        height: 90px;
+    }
+
+    .blog-desc a span {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .blog-desc a {
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .course h2{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 22px;
+    }
+}
+
+/* Topper Section css Ends */
